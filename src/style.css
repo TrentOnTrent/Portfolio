@@ -1,3 +1,43 @@
-h1{
-    font-size: 48px;
+* {
+    padding: 0px;
+    margin: 0px;
+    /* CSS HEX */
+    --pale-dogwood: #ffdcccff;
+    --orange-pantone: #f56416ff;
+    --carolina-blue: #81adc8ff;
+    --midnight-green: #0b3c49ff;
+    --red-crayola: #ea1744ff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, var(--orange-pantone), var(--midnight-green));
+    height: 100vh;
+    width: 100vw;
+}
+
+#Container-Header{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    /* Keep 3:2 ratio for photo */
+    display: block;
+    width: 25%;
+    height: auto;
+    border-radius: 10%;
+    margin-top: 2rem;
+}
+
+header h1{
+    font-size: 8vw;
+    color: var(--pale-dogwood);
+    padding-left: 35px;
 }
