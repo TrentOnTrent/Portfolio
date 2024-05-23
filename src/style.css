@@ -19,25 +19,31 @@ body{
 }
 
 header{
+    height: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 header img{
     /* Keep 3:2 ratio for photo */
+
     display: block;
-    width: 45%;
-    height: auto;
+    height: 65%;
+    width: auto;
     border-radius: 10%;
     margin-top: 2rem;
     justify-content: center;
 }
 
 header h1{
-    margin-top: 2rem;
     font-size: 10vw;
     color: var(--pale-dogwood);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
 }
 
 main article {
@@ -48,10 +54,10 @@ main article {
 }
 
 main article p {
+    text-align: center;
+    width: 75%;
     color: var(--pale-dogwood);
     font-size: 5vw;
-    margin-top: 5%;
-    margin-left: 10%;
 }
 
 main section {
@@ -59,16 +65,25 @@ main section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
 }
 
 main section p {
     color: var(--pale-dogwood);
 }
 
-.navlinks{
-    display:flex;
+#other-links{
+    font-size: 7vw;
+}
 
+.nav-links{
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+    font-size: 4vw;
+}
+
+#resume-link{
+    font-size: 7vw;
 }
 
 main section a{
@@ -84,19 +99,30 @@ main section a:hover{
 }
 
 footer {
+    color: var(--pale-dogwood);
+    height: 20%;
+    display:flex;
+    justify-content: center;
+}
+
+#extra-links{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15%;
+    justify-content: center;
+}
+
+#extra-links p {
+    font-size:4vw;
 }
 
 .icons-links{
+    padding-top: 10px;
+    color: var(--carolina-blue);
+    width: 65%;
     display:flex;
+    flex-direction: row;
     justify-content: space-between;
-}
-
-.icon-links child{
-    padding: 10px;
 }
 
 @media screen and (min-width: 600px) {
