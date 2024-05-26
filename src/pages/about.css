@@ -1,0 +1,12 @@
+main article {
+    width: 80%;
+}
+
+main article h2 {
+    color: var(--pale-dogwood);
+}
+
+main article ul {
+    color: var(--pale-dogwood);
+    width: 80%;
+}

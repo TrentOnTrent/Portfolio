@@ -43,6 +43,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     height: 50%;
 }
 
@@ -51,11 +52,17 @@ main article {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(11,60,73,.8);
+    width:55%;
+    border-radius: 20%;
+    border-color: var(--red-crayola);
+    border-width: 4px;
+    border-style: solid;
 }
 
 main article p {
     text-align: center;
-    width: 75%;
+    width: 95%;
     color: var(--pale-dogwood);
     font-size: 5vw;
 }
@@ -83,7 +90,7 @@ main section p {
 }
 
 #resume-link{
-    font-size: 7vw;
+    font-size: 5vw;
 }
 
 main section a{
@@ -118,17 +125,75 @@ footer {
 
 .icons-links{
     padding-top: 10px;
-    color: var(--carolina-blue);
     width: 65%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-@media screen and (min-width: 600px) {
+.icons-links a {
+    color: var(--carolina-blue);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px) and (max-width: 849px) {
     header img{
         /* Keep 3:2 ratio for photo */
-        width: 20%;
+        width: 13%;
         height: auto;
+    }
+
+    header h1{
+        font-size: 6vw;
+    }
+
+    main article {
+        border-radius: 25%;
+    }
+    main article p {
+        font-size: 3vw;
+    }
+
+    #other-links{
+        font-size: 4vw;
+    }
+
+    #resume-link{
+        font-size: 4vw;
+    }
+
+    main section a{
+        font-size: 3vw;
+    }
+
+    #extra-links p {
+        font-size:3vw;
+    }
+
+}
+
+@media screen and (min-width: 850px){
+    header h1{
+        font-size: 3vw;
+    }
+
+    main article p {
+        font-size: 3vw;
+    }
+
+    #other-links{
+        font-size: 3vw;
+    }
+
+    #resume-link{
+        font-size: 3vw;
+    }
+
+    main section a{
+        font-size: 2vw;
+    }
+
+    #extra-links p {
+        font-size: 2vw;
     }
 }
