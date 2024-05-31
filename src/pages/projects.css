@@ -1,0 +1,31 @@
+h2 {
+    margin-top: -50px;
+    color: var(--pale-dogwood);
+}
+#projects-section {
+    display: flex;
+    width: 80%;
+}
+
+#projects-section p {
+    font-size: 3vw;
+}
+
+.label {
+    font-family:"Share Tech";
+    font-style:italic;
+}
+.project-individual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px) and (max-width: 849px) {
+    
+}
+
+@media screen and (min-width: 850px){
+
+}
