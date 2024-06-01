@@ -13,7 +13,7 @@
 }
 
 body{
-    background-image: linear-gradient(to right, rgba(245, 100, 22, 0.9), var(--midnight-green));
+    background-image: linear-gradient(to right, rgba(245, 100, 22, 0.88), var(--midnight-green));
     height: 100vh;
     width: 100vw;
 }
@@ -40,7 +40,7 @@ header img{
 }
 
 #Name-Header {
-    font-size: 8vw;
+    font-size: 30px;
     color: var(--pale-dogwood);
     text-shadow: -1px -1px 0 var(--midnight-green), 2px -1px 0 var(--midnight-green), -1px 2px 0 var(--midnight-green), 2px 2px 0 var(--midnight-green);
 }
@@ -51,7 +51,7 @@ main {
     align-items: center;
     height: 50%;
     /* Same colour as Midnight-green but with 91% opacity */
-    background-color: rgba(11, 60, 73, 0.91);
+    background-color: rgba(11, 60, 73, 0.88);
 }
 
 main article {
@@ -66,7 +66,7 @@ main article {
     text-align: center;
     width: 95%;
     color: var(--pale-dogwood);
-    font-size: 5vw;
+    font-size: 24px;
 }
 
 #other-links {
@@ -75,7 +75,7 @@ main article {
     justify-content: center;
     align-items: center;
     width: 95%;
-    font-size: 7vw;
+    font-size: 24px;
 }
 
 #other-links p {
@@ -85,7 +85,7 @@ main article {
 #other-links a{
     text-decoration:none;
     color: var(--carolina-blue);
-    font-size: 4vw;
+    font-size: 20px;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -97,12 +97,12 @@ main article {
 .nav-links{
     display:flex;
     justify-content: space-between;
-    width: 80%;
-    font-size: 4vw;
+    width: 90%;
+    font-size: 20px;
 }
 
 #resume-link{
-    font-size: 5vw;
+    font-size: 16px;
 }
 
 footer {
@@ -120,7 +120,7 @@ footer {
 }
 
 #extra-links p {
-    font-size:4vw;
+    font-size: 16px;
 }
 
 .icons-links{

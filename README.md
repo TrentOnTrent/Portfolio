@@ -6,8 +6,13 @@ A link to your GitHub repo: [Portfolio Website Repo](https://github.com/TrentOnT
 
 Description of your portfolio website, including,
 Purpose: To display to potential employers and industry professionals projects that have been worked on and added to.
+
 Functionality / features
+
 Screenshots
-Sitemap
+
+Sitemap (italics to denote external links): ![Image of a sitemap for Trenton Dunstan's website](./docs/sitemap.png)
+
 Target audience
+
 Tech stack: HTML5, CSS3, deployed utilising GitHub Pages
