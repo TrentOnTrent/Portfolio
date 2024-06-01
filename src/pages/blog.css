@@ -1,12 +1,14 @@
-h1 {
-    font-size: 12px;
-}
-#projects-section {
-    display: flex;
-    width: 90%; 
+h2 {
+    margin-top: -50px;
+    color: var(--pale-dogwood);
 }
 
-#projects-section p {
+#blog-section {
+    display: flex;
+    width: 90%;
+}
+
+#blog-section p {
     font-size: 3vw;
 }
 

@@ -10,3 +10,19 @@ main article ul {
     color: var(--pale-dogwood);
     width: 80%;
 }
+
+#resume-link {
+    color:var(--pale-dogwood);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#resume-link a {
+    text-decoration:none;
+    color: var(--carolina-blue);
+}
+
+#resume-link a:hover{
+    text-decoration:underline;
+}
