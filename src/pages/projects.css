@@ -1,25 +1,39 @@
-h1 {
-    font-size: 12px;
+#project-header {
+    color: var(--pale-dogwood);
 }
+
 #projects-section {
     display: flex;
+    flex-direction: column;
     width: 90%; 
 }
 
 #projects-section p {
     font-size: 3vw;
+    color: var(--pale-dogwood);
 }
 
-.label {
-    font-family:"Share Tech";
-    font-style:italic;
-}
 .project-individual {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
+.project-individual a {
+    color: var(--carolina-blue);
+    text-decoration: none;
+}
+
+.project-individual a:hover {
+    text-decoration: underline;
+}
+
+.label {
+    font-family:"Share Tech";
+    font-style:italic;
+}
+
 
 @media screen and (min-width: 600px) and (max-width: 849px) {
 
