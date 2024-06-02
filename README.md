@@ -1,6 +1,6 @@
 # Trenton Dunstan Portfolio
 
-Link: [Portfolio Website](https://trentontrent.github.io/Portfolio/)
+Link: [Portfolio Website](https://trentondunstanportolio.netlify.app/)
 
 GitHub repo: [Portfolio Website Repo](https://github.com/TrentOnTrent/Portfolio)
 
@@ -25,7 +25,9 @@ The target audience of the website is any software industry professionals, inclu
 ## Aesthetic of Website
 The overall aesthetic was based off a colour palette generated through Coolors.co: ![Image of a colour palette for Trenton Dunstan's website](./docs/colourpalette.png)
 
-As such, the main background of the website is the Orange (Pantone) to Midnight Green gradient, with a block Midnight Green background designating the main content-related section of the website.  Pale Dogwood was used instead of a more standard white colour, giving a softer look.
+This then influenced the originating mockups: ![Image of a mockup for Trenton Dunstan's website](./docs/mockup1.png)
+
+During development, the main background of the website was changed from a block Orange (Pantone) colour to, instead, a Orange (Pantone) to Midnight Green gradient, with a block Midnight Green background designating the main content-related section of the website in order to make various sections clearer.  Pale Dogwood was used instead of a more standard white colour, giving a softer look.
 
 ## Components
 A list of components used:
