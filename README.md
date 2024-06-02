@@ -1,18 +1,36 @@
 # Trenton Dunstan Portfolio
 
-A link (URL) to your published portfolio website: [Portfolio Website](https://trentontrent.github.io/Portfolio/)
+Link: [Portfolio Website](https://trentontrent.github.io/Portfolio/)
 
-A link to your GitHub repo: [Portfolio Website Repo](https://github.com/TrentOnTrent/Portfolio)
+GitHub repo: [Portfolio Website Repo](https://github.com/TrentOnTrent/Portfolio)
 
-Description of your portfolio website, including,
-Purpose: To display to potential employers and industry professionals projects that have been worked on and added to.
+## Functionality/features
+Features of the website include the ability to read multiple blog posts on IT and software-related industry points, links to GitHub and LinkedIn profiles as well as a resume, and seemless navigation and responsiveness to utilise the website.
 
-Functionality / features
 
-Screenshots
+## Screenshots
+![Screenshot of home page](./docs/homepagescreenshot.png)
+![Screenshot of blog page](./docs/blogscreenshot.png)
 
-Sitemap (italics to denote external links): ![Image of a sitemap for Trenton Dunstan's website](./docs/sitemap.png)
+## Sitemap (italics to denote external links): ![Image of a sitemap for Trenton Dunstan's website](./docs/sitemap.png)
 
-Target audience
+## Navigation
+The home page will act as a landing page for users, outlining and introducing the links that are available and can be navigated therein.  The "About Me" page offers more information about myself, including a link to a PDF resume that can be viewed. The "Projects" page offers links to public GitHub repositories that can be navigated and explored. The "Blog" page offers links to various blog articles on various software development concepts/ideas.  
 
-Tech stack: HTML5, CSS3, deployed utilising GitHub Pages
+The website will mainly be navigated by the links towards the bottom of the page in order to keep a clean aesthetic towards the top with the image component and content on each page, with links to a LinkedIn and GitHub profiles available on each page.  
+
+## Target audience
+The target audience of the website is any software industry professionals, including employers, other colleagues and software developers. It utilises a tech stack of HTML5, CSS3, as well as being deployed utilising Netlify and will also feature Javascript in the near future.
+
+## Aesthetic of Website
+The overall aesthetic was based off a colour palette generated through Coolors.co: ![Image of a colour palette for Trenton Dunstan's website](./docs/colourpalette.png)
+
+As such, the main background of the website is the Orange (Pantone) to Midnight Green gradient, with a block Midnight Green background designating the main content-related section of the website.  Pale Dogwood was used instead of a more standard white colour, giving a softer look.
+
+## Components
+A list of components used:
+- Header image used on each page, sizing appropriately based on size of the viewport, keeping aspect ratio whilst resizing by utilising flexbox
+- Footer links, with appropriate behaviour based off hovering and underlining when needed by utilising flexbox
+- Ordered and unordered lists, utilised in blog posts and "About Me" page
+
+

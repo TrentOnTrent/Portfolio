@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     width: 90%;
+    min-height: 50vw;
 }
 
 .blog-post {
@@ -14,7 +15,7 @@
 
 .blog-post a {
     color: var(--carolina-blue);
-    text-decoration: none;;
+    text-decoration: none;
 }
 
 .blog-post a:hover {
