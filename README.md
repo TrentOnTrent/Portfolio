@@ -7,7 +7,6 @@ GitHub repo: [Portfolio Website Repo](https://github.com/TrentOnTrent/Portfolio)
 ## Functionality/features
 Features of the website include the ability to read multiple blog posts on IT and software-related industry points, links to GitHub and LinkedIn profiles as well as a resume, and seemless navigation and responsiveness to utilise the website.
 
-
 ## Screenshots
 ![Screenshot of home page](./docs/homepagescreenshot.png)
 ![Screenshot of blog page](./docs/blogscreenshot.png)
@@ -31,8 +30,8 @@ During development, the main background of the website was changed from a block 
 
 ## Components
 A list of components used:
-- Header image used on each page, sizing appropriately based on size of the viewport, keeping aspect ratio whilst resizing by utilising flexbox
-- Footer links, with appropriate behaviour based off hovering and underlining when needed by utilising flexbox
+- Header, with cover image used on each page, sizing appropriately based on size of the viewport, keeping aspect ratio whilst resizing by utilising flexbox
+- Call to action footer links, with appropriate behaviour based off hovering and underlining when needed by utilising flexbox
 - Ordered and unordered lists, utilised in blog posts and "About Me" page
-
+- Blog with blog post links, viewport sizing dynamically based off amount of content on each page
 
