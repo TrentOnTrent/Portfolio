@@ -11,11 +11,14 @@
     /* Default font */
     font-family: 'Montserrat', sans-serif;
 }
+html {
+    height: 100%;
+}
 
 body{
     background-image: linear-gradient(to right, rgba(245, 100, 22, 0.88), var(--midnight-green));
-    height: 100vh;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -29,7 +32,7 @@ header img{
     /* Keep 3:2 ratio for photo */
 
     display: block;
-    height: 65%;
+    height: 25vh;
     width: auto;
     border-radius: 10%;
     border-color: var(--midnight-green);
@@ -49,8 +52,8 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 50%;
-    /* Same colour as Midnight-green but with 91% opacity */
+    flex-basis: 300px;
+    /* Same colour as Midnight-green but with 88% opacity */
     background-color: rgba(11, 60, 73, 0.88);
 }
 
@@ -107,9 +110,9 @@ main article {
 
 footer {
     color: var(--pale-dogwood);
-    height: 20%;
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 #extra-links{

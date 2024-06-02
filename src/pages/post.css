@@ -1,0 +1,23 @@
+.blog-article-content {
+    color: var(--pale-dogwood);
+    font-size: 14px;
+    text-align: center;
+}
+
+h4 {
+    color: var(--pale-dogwood);
+}
+li {
+    color: var(--pale-dogwood)
+}
+
+#blog-article {
+    display:flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 700px) {
+    .blog-article-content {
+        font-size: 2vw;
+    }
+}
